@@ -81,6 +81,15 @@ class AlternateLanguage extends AbstractTemplate
                 continue;
             }
 
+            // Determine store "domain" based on store code
+            $currentStoreDomain = substr($this->storeManager->getStore()->getCode(), 0, strpos($this->storeManager->getStore()->getCode(), '_'));
+            $storeDomain        = substr($store->getCode(), 0, strpos($store->getCode(), '_'));
+
+            if ($currentStoreDomain !== $storeDomain) {
+                // Skip store with different domain
+                continue;
+            }
+
             $magentoLanguage = str_replace('_', '-', $store->getConfig('general/locale/code'));
 
             $language = $configuration->getContentLanguage($store);
