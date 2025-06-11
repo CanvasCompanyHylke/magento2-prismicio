@@ -6,26 +6,30 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Prismic IO Developer documentation">
+        <meta name="description" content="Creating and working with Prismic templates in Magento 2">
       
       
       
       
+        <link rel="prev" href="../content/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../slices/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Elgentos - Prismic IO Magento 2 module</title>
+        <title>Prismic Templates - Elgentos - Prismic IO Magento 2 module</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#templates" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Elgentos - Prismic IO Magento 2 module" class="md-header__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
+    <a href="../.." title="Elgentos - Prismic IO Magento 2 module" class="md-header__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Prismic Templates
             
           </span>
         </div>
@@ -217,7 +226,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Elgentos - Prismic IO Magento 2 module" class="md-nav__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
+    <a href="../.." title="Elgentos - Prismic IO Magento 2 module" class="md-nav__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -247,7 +256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -307,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/installation/" class="md-nav__link">
+      <a href="../../basics/installation/" class="md-nav__link">
         
   
   
@@ -330,7 +339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/configuration/" class="md-nav__link">
+      <a href="../../basics/configuration/" class="md-nav__link">
         
   
   
@@ -353,7 +362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/content-types/" class="md-nav__link">
+      <a href="../../basics/content-types/" class="md-nav__link">
         
   
   
@@ -380,18 +389,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -407,7 +418,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Frontend
@@ -421,7 +432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/handles/" class="md-nav__link">
+      <a href="../handles/" class="md-nav__link">
         
   
   
@@ -444,7 +455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/debug/" class="md-nav__link">
+      <a href="../debug/" class="md-nav__link">
         
   
   
@@ -467,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/content/" class="md-nav__link">
+      <a href="../content/" class="md-nav__link">
         
   
   
@@ -487,10 +498,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/layout/template/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Template
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -501,6 +534,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Implementation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -513,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/slices/" class="md-nav__link">
+      <a href="../slices/" class="md-nav__link">
         
   
   
@@ -536,7 +616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/static-blocks/" class="md-nav__link">
+      <a href="../static-blocks/" class="md-nav__link">
         
   
   
@@ -559,7 +639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/document-links/" class="md-nav__link">
+      <a href="../document-links/" class="md-nav__link">
         
   
   
@@ -582,7 +662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/alternate-languages/" class="md-nav__link">
+      <a href="../alternate-languages/" class="md-nav__link">
         
   
   
@@ -650,7 +730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/routing/" class="md-nav__link">
+      <a href="../../advanced/routing/" class="md-nav__link">
         
   
   
@@ -673,7 +753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/routes-admin/" class="md-nav__link">
+      <a href="../../advanced/routes-admin/" class="md-nav__link">
         
   
   
@@ -696,7 +776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/multi-repo/" class="md-nav__link">
+      <a href="../../advanced/multi-repo/" class="md-nav__link">
         
   
   
@@ -719,7 +799,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/sitemap/" class="md-nav__link">
+      <a href="../../advanced/sitemap/" class="md-nav__link">
         
   
   
@@ -742,7 +822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/integration-fields/" class="md-nav__link">
+      <a href="../../advanced/integration-fields/" class="md-nav__link">
         
   
   
@@ -765,7 +845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/webhooks/" class="md-nav__link">
+      <a href="../../advanced/webhooks/" class="md-nav__link">
         
   
   
@@ -871,7 +951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/prismic-fields.md" class="md-nav__link">
+      <a href="../../technical/blocks/prismic-fields.md" class="md-nav__link">
         
   
   
@@ -894,7 +974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/title-and-metadata/" class="md-nav__link">
+      <a href="../../technical/blocks/title-and-metadata/" class="md-nav__link">
         
   
   
@@ -917,7 +997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/container/" class="md-nav__link">
+      <a href="../../technical/blocks/container/" class="md-nav__link">
         
   
   
@@ -940,7 +1020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/overview/" class="md-nav__link">
+      <a href="../../technical/blocks/overview/" class="md-nav__link">
         
   
   
@@ -971,7 +1051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/console-commands/" class="md-nav__link">
+      <a href="../../technical/console-commands/" class="md-nav__link">
         
   
   
@@ -994,7 +1074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/viewmodels/" class="md-nav__link">
+      <a href="../../technical/viewmodels/" class="md-nav__link">
         
   
   
@@ -1017,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/preview-mode/" class="md-nav__link">
+      <a href="../../technical/preview-mode/" class="md-nav__link">
         
   
   
@@ -1040,7 +1120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/exceptions/" class="md-nav__link">
+      <a href="../../technical/exceptions/" class="md-nav__link">
         
   
   
@@ -1063,7 +1143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/registry/" class="md-nav__link">
+      <a href="../../technical/registry/" class="md-nav__link">
         
   
   
@@ -1086,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/renderer/" class="md-nav__link">
+      <a href="../../technical/renderer/" class="md-nav__link">
         
   
   
@@ -1116,7 +1196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/best-practices/" class="md-nav__link">
+      <a href="../../best-practices/" class="md-nav__link">
         
   
   
@@ -1148,6 +1228,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Implementation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1159,8 +1276,74 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="templates">Templates</h1>
+<p>Templates define how your Prismic content is rendered in Magento 2. Here's how to work with templates effectively.</p>
+<h2 id="template-structure">Template Structure</h2>
+<p>A typical Prismic template consists of multiple parts:</p>
+<ol>
+<li>The main template file</li>
+<li>Element templates for specific content blocks</li>
+<li>Layout configuration that ties it all together</li>
+</ol>
+<h2 id="example-implementation">Example Implementation</h2>
+<p>Here's a complete example showing how to structure templates for a homepage:</p>
+<ol>
+<li>Create your main template (<code>homepage.phtml</code>):</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">&lt;?php</span> <span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="sd">/** @var $block \Elgentos\PrismicIO\Block\Template */</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cp">?&gt;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="x">&lt;section class=&quot;content-wrap&quot;&gt;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="x">    &lt;div class=&quot;grid lg:grid-cols-6&quot;&gt;</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="x">        </span><span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="nv">$block</span><span class="o">-&gt;</span><span class="na">getChildHtml</span><span class="p">(</span><span class="s1">&#39;page.body&#39;</span><span class="p">);</span> <span class="cp">?&gt;</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="x">    &lt;/div&gt;</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="x">&lt;/section&gt;</span>
+</code></pre></div>
+<ol>
+<li>Create your element template (<code>element/homepage-block.phtml</code>) for individual content blocks:</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cp">&lt;?php</span> <span class="k">declare</span><span class="p">(</span><span class="nx">strict_types</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="sd">/** @var $block \Elgentos\PrismicIO\Block\Template */</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nv">$homepageBlock</span> <span class="o">=</span> <span class="nv">$block</span><span class="o">-&gt;</span><span class="na">getContext</span><span class="p">();</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="cp">?&gt;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="x">&lt;div class=&quot;block </span><span class="cp">&lt;?</span><span class="o">=</span> <span class="nv">$block</span><span class="o">-&gt;</span><span class="na">getChildHtml</span><span class="p">(</span><span class="s1">&#39;block.width&#39;</span><span class="p">)</span> <span class="cp">?&gt;</span><span class="x">&quot;&gt;</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="x">    &lt;a href=&quot;</span><span class="cp">&lt;?</span><span class="o">=</span> <span class="nv">$block</span><span class="o">-&gt;</span><span class="na">getChildHtml</span><span class="p">(</span><span class="s1">&#39;block.link&#39;</span><span class="p">)</span> <span class="cp">?&gt;</span><span class="x">&quot;&gt;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="x">        &lt;img src=&quot;</span><span class="cp">&lt;?</span><span class="o">=</span> <span class="nv">$block</span><span class="o">-&gt;</span><span class="na">getChildHtml</span><span class="p">(</span><span class="s1">&#39;block.image&#39;</span><span class="p">)</span> <span class="cp">?&gt;</span><span class="x">&quot; alt=&quot;&quot;&gt;</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="x">    &lt;/a&gt;</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="x">&lt;/div&gt;</span>
+</code></pre></div>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li>Keep templates focused on presentation logic</li>
+<li>Use meaningful template names that reflect their purpose</li>
+<li>Organize templates in appropriate directories based on their function</li>
+<li>Use PHP DocBlocks to properly type-hint block classes</li>
+<li>Leverage block methods like <code>getChildHtml()</code> for structured content</li>
+<li>Keep presentation logic in templates and structural logic in blocks </li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1221,10 +1404,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["navigation.top"], "search": "/assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>

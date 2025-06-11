@@ -6,26 +6,30 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Prismic IO Developer documentation">
+        <meta name="description" content="Technical documentation for Prismic registry classes in Magento 2">
       
       
       
       
+        <link rel="prev" href="../exceptions/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../renderer/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Elgentos - Prismic IO Magento 2 module</title>
+        <title>Registry - Elgentos - Prismic IO Magento 2 module</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#registry" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Elgentos - Prismic IO Magento 2 module" class="md-header__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
+    <a href="../.." title="Elgentos - Prismic IO Magento 2 module" class="md-header__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Registry
             
           </span>
         </div>
@@ -217,7 +226,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Elgentos - Prismic IO Magento 2 module" class="md-nav__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
+    <a href="../.." title="Elgentos - Prismic IO Magento 2 module" class="md-nav__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -247,7 +256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -307,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/installation/" class="md-nav__link">
+      <a href="../../basics/installation/" class="md-nav__link">
         
   
   
@@ -330,7 +339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/configuration/" class="md-nav__link">
+      <a href="../../basics/configuration/" class="md-nav__link">
         
   
   
@@ -353,7 +362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/content-types/" class="md-nav__link">
+      <a href="../../basics/content-types/" class="md-nav__link">
         
   
   
@@ -421,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/handles/" class="md-nav__link">
+      <a href="../../layout/handles/" class="md-nav__link">
         
   
   
@@ -444,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/debug/" class="md-nav__link">
+      <a href="../../layout/debug/" class="md-nav__link">
         
   
   
@@ -467,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/content/" class="md-nav__link">
+      <a href="../../layout/content/" class="md-nav__link">
         
   
   
@@ -490,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/template/" class="md-nav__link">
+      <a href="../../layout/template/" class="md-nav__link">
         
   
   
@@ -513,7 +522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/slices/" class="md-nav__link">
+      <a href="../../layout/slices/" class="md-nav__link">
         
   
   
@@ -536,7 +545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/static-blocks/" class="md-nav__link">
+      <a href="../../layout/static-blocks/" class="md-nav__link">
         
   
   
@@ -559,7 +568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/document-links/" class="md-nav__link">
+      <a href="../../layout/document-links/" class="md-nav__link">
         
   
   
@@ -582,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/alternate-languages/" class="md-nav__link">
+      <a href="../../layout/alternate-languages/" class="md-nav__link">
         
   
   
@@ -650,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/routing/" class="md-nav__link">
+      <a href="../../advanced/routing/" class="md-nav__link">
         
   
   
@@ -673,7 +682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/routes-admin/" class="md-nav__link">
+      <a href="../../advanced/routes-admin/" class="md-nav__link">
         
   
   
@@ -696,7 +705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/multi-repo/" class="md-nav__link">
+      <a href="../../advanced/multi-repo/" class="md-nav__link">
         
   
   
@@ -719,7 +728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/sitemap/" class="md-nav__link">
+      <a href="../../advanced/sitemap/" class="md-nav__link">
         
   
   
@@ -742,7 +751,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/integration-fields/" class="md-nav__link">
+      <a href="../../advanced/integration-fields/" class="md-nav__link">
         
   
   
@@ -765,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/webhooks/" class="md-nav__link">
+      <a href="../../advanced/webhooks/" class="md-nav__link">
         
   
   
@@ -792,18 +801,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -819,7 +830,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Technical description
@@ -871,7 +882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/prismic-fields.md" class="md-nav__link">
+      <a href="../blocks/prismic-fields.md" class="md-nav__link">
         
   
   
@@ -894,7 +905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/title-and-metadata/" class="md-nav__link">
+      <a href="../blocks/title-and-metadata/" class="md-nav__link">
         
   
   
@@ -917,7 +928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/container/" class="md-nav__link">
+      <a href="../blocks/container/" class="md-nav__link">
         
   
   
@@ -940,7 +951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/overview/" class="md-nav__link">
+      <a href="../blocks/overview/" class="md-nav__link">
         
   
   
@@ -971,7 +982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/console-commands/" class="md-nav__link">
+      <a href="../console-commands/" class="md-nav__link">
         
   
   
@@ -994,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/viewmodels/" class="md-nav__link">
+      <a href="../viewmodels/" class="md-nav__link">
         
   
   
@@ -1017,7 +1028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/preview-mode/" class="md-nav__link">
+      <a href="../preview-mode/" class="md-nav__link">
         
   
   
@@ -1040,7 +1051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/exceptions/" class="md-nav__link">
+      <a href="../exceptions/" class="md-nav__link">
         
   
   
@@ -1060,10 +1071,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/technical/registry/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Registry
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1074,6 +1107,134 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-registry-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Registry Classes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Registry Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#currentdocument" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentDocument
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currentroute" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentRoute
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#currentdocument_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentDocument
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currentroute_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentRoute
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#document-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document Registry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#route-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Route Registry
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1086,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/renderer/" class="md-nav__link">
+      <a href="../renderer/" class="md-nav__link">
         
   
   
@@ -1116,7 +1277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/best-practices/" class="md-nav__link">
+      <a href="../../best-practices/" class="md-nav__link">
         
   
   
@@ -1148,6 +1309,124 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-registry-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Registry Classes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Registry Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#currentdocument" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentDocument
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currentroute" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentRoute
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#currentdocument_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentDocument
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currentroute_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      CurrentRoute
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#document-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document Registry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#route-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Route Registry
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1159,8 +1438,85 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="registry">Registry</h1>
+<p>The module uses registry classes to maintain state across requests and manage current document and route information.</p>
+<h2 id="core-registry-classes">Core Registry Classes</h2>
+<h3 id="currentdocument">CurrentDocument</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="x">Elgentos\PrismicIO\Registry\CurrentDocument</span>
+</code></pre></div>
+<p>Maintains reference to the current Prismic document.</p>
+<h3 id="currentroute">CurrentRoute</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="x">Elgentos\PrismicIO\Registry\CurrentRoute</span>
+</code></pre></div>
+<p>Maintains reference to the current route.</p>
+<h2 id="implementation">Implementation</h2>
+<h3 id="currentdocument_1">CurrentDocument</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="x">public function setDocument(\stdClass $document): void</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="x">public function getDocument(): ?\stdClass</span>
+</code></pre></div>
+<h3 id="currentroute_1">CurrentRoute</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="x">public function setRoute(RouteInterface $route): void</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="x">public function getRoute(): ?RouteInterface</span>
+</code></pre></div>
+<h2 id="usage-examples">Usage Examples</h2>
+<h3 id="document-registry">Document Registry</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="x">/** @var $currentDocument CurrentDocument */</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="x">if ($document = $currentDocument-&gt;getDocument()) {</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="x">    // Process current document</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="x">}</span>
+</code></pre></div>
+<h3 id="route-registry">Route Registry</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="x">/** @var $currentRoute CurrentRoute */</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="x">if ($route = $currentRoute-&gt;getRoute()) {</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="x">    // Process current route</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="x">}</span>
+</code></pre></div>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li><strong>State Management</strong></li>
+<li>Clear registry when needed</li>
+<li>Avoid circular references</li>
+<li>
+<p>Handle missing data</p>
+</li>
+<li>
+<p><strong>Performance</strong></p>
+</li>
+<li>Minimize registry usage</li>
+<li>Clear unnecessary data</li>
+<li>
+<p>Consider memory impact</p>
+</li>
+<li>
+<p><strong>Development</strong></p>
+</li>
+<li>Document registry usage</li>
+<li>Handle edge cases</li>
+<li>Maintain consistency </li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1221,10 +1577,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["navigation.top"], "search": "/assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>

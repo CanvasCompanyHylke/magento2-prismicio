@@ -6,26 +6,30 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Prismic IO Developer documentation">
+        <meta name="description" content="Working with Prismic static blocks in Magento 2">
       
       
       
       
+        <link rel="prev" href="../slices/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../document-links/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Elgentos - Prismic IO Magento 2 module</title>
+        <title>Static Blocks - Elgentos - Prismic IO Magento 2 module</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#static-blocks" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Elgentos - Prismic IO Magento 2 module" class="md-header__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
+    <a href="../.." title="Elgentos - Prismic IO Magento 2 module" class="md-header__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Static Blocks
             
           </span>
         </div>
@@ -217,7 +226,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Elgentos - Prismic IO Magento 2 module" class="md-nav__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
+    <a href="../.." title="Elgentos - Prismic IO Magento 2 module" class="md-nav__button md-logo" aria-label="Elgentos - Prismic IO Magento 2 module" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -247,7 +256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -307,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/installation/" class="md-nav__link">
+      <a href="../../basics/installation/" class="md-nav__link">
         
   
   
@@ -330,7 +339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/configuration/" class="md-nav__link">
+      <a href="../../basics/configuration/" class="md-nav__link">
         
   
   
@@ -353,7 +362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/content-types/" class="md-nav__link">
+      <a href="../../basics/content-types/" class="md-nav__link">
         
   
   
@@ -380,18 +389,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -407,7 +418,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Frontend
@@ -421,7 +432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/handles/" class="md-nav__link">
+      <a href="../handles/" class="md-nav__link">
         
   
   
@@ -444,7 +455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/debug/" class="md-nav__link">
+      <a href="../debug/" class="md-nav__link">
         
   
   
@@ -467,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/content/" class="md-nav__link">
+      <a href="../content/" class="md-nav__link">
         
   
   
@@ -490,7 +501,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/template/" class="md-nav__link">
+      <a href="../template/" class="md-nav__link">
         
   
   
@@ -513,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/slices/" class="md-nav__link">
+      <a href="../slices/" class="md-nav__link">
         
   
   
@@ -533,10 +544,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/layout/static-blocks/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Static blocks
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -547,6 +580,113 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-static-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Static Blocks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-static-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Static Block
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-content-type-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Content Type Block
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-reference-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using Reference Notation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference Format
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Details
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Error Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -559,7 +699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/document-links/" class="md-nav__link">
+      <a href="../document-links/" class="md-nav__link">
         
   
   
@@ -582,7 +722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/layout/alternate-languages/" class="md-nav__link">
+      <a href="../alternate-languages/" class="md-nav__link">
         
   
   
@@ -650,7 +790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/routing/" class="md-nav__link">
+      <a href="../../advanced/routing/" class="md-nav__link">
         
   
   
@@ -673,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/routes-admin/" class="md-nav__link">
+      <a href="../../advanced/routes-admin/" class="md-nav__link">
         
   
   
@@ -696,7 +836,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/multi-repo/" class="md-nav__link">
+      <a href="../../advanced/multi-repo/" class="md-nav__link">
         
   
   
@@ -719,7 +859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/sitemap/" class="md-nav__link">
+      <a href="../../advanced/sitemap/" class="md-nav__link">
         
   
   
@@ -742,7 +882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/integration-fields/" class="md-nav__link">
+      <a href="../../advanced/integration-fields/" class="md-nav__link">
         
   
   
@@ -765,7 +905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/advanced/webhooks/" class="md-nav__link">
+      <a href="../../advanced/webhooks/" class="md-nav__link">
         
   
   
@@ -871,7 +1011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/prismic-fields.md" class="md-nav__link">
+      <a href="../../technical/blocks/prismic-fields.md" class="md-nav__link">
         
   
   
@@ -894,7 +1034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/title-and-metadata/" class="md-nav__link">
+      <a href="../../technical/blocks/title-and-metadata/" class="md-nav__link">
         
   
   
@@ -917,7 +1057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/container/" class="md-nav__link">
+      <a href="../../technical/blocks/container/" class="md-nav__link">
         
   
   
@@ -940,7 +1080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/blocks/overview/" class="md-nav__link">
+      <a href="../../technical/blocks/overview/" class="md-nav__link">
         
   
   
@@ -971,7 +1111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/console-commands/" class="md-nav__link">
+      <a href="../../technical/console-commands/" class="md-nav__link">
         
   
   
@@ -994,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/viewmodels/" class="md-nav__link">
+      <a href="../../technical/viewmodels/" class="md-nav__link">
         
   
   
@@ -1017,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/preview-mode/" class="md-nav__link">
+      <a href="../../technical/preview-mode/" class="md-nav__link">
         
   
   
@@ -1040,7 +1180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/exceptions/" class="md-nav__link">
+      <a href="../../technical/exceptions/" class="md-nav__link">
         
   
   
@@ -1063,7 +1203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/registry/" class="md-nav__link">
+      <a href="../../technical/registry/" class="md-nav__link">
         
   
   
@@ -1086,7 +1226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/technical/renderer/" class="md-nav__link">
+      <a href="../../technical/renderer/" class="md-nav__link">
         
   
   
@@ -1116,7 +1256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/best-practices/" class="md-nav__link">
+      <a href="../../best-practices/" class="md-nav__link">
         
   
   
@@ -1148,6 +1288,103 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-static-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Static Blocks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-static-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Static Block
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-content-type-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Content Type Block
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-reference-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using Reference Notation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference Format
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Details
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Error Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1159,8 +1396,105 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+<h1 id="static-blocks">Static Blocks</h1>
+<p>Static blocks in Prismic provide a way to manage reusable content blocks that can be placed throughout your Magento store. They function similarly to Magento's CMS blocks but are managed through Prismic.</p>
+<h2 id="understanding-static-blocks">Understanding Static Blocks</h2>
+<p>A static block in Prismic:
+- Has a unique identifier (UID)
+- Belongs to a specific content type (default: 'static_block')
+- Can be referenced and rendered anywhere in your layouts
+- Supports multiple languages</p>
+<h2 id="usage-examples">Usage Examples</h2>
+<h3 id="basic-static-block">Basic Static Block</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">&lt;!-- Basic static block with default content type --&gt;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">&lt;block</span><span class="w"> </span><span class="na">class=</span><span class="s">&quot;Elgentos\PrismicIO\Block\StaticBlock&quot;</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;my.static.block&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">&lt;arguments&gt;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="nt">&lt;argument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;identifier&quot;</span><span class="w"> </span><span class="na">xsi:type=</span><span class="s">&quot;string&quot;</span><span class="nt">&gt;</span>my-block-uid<span class="nt">&lt;/argument&gt;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nt">&lt;/arguments&gt;</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nt">&lt;/block&gt;</span>
+</code></pre></div>
+<h3 id="custom-content-type-block">Custom Content Type Block</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">&lt;!-- Static block with custom content type --&gt;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nt">&lt;block</span><span class="w"> </span><span class="na">class=</span><span class="s">&quot;Elgentos\PrismicIO\Block\StaticBlock&quot;</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;custom.block&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">&lt;arguments&gt;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="nt">&lt;argument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;content_type&quot;</span><span class="w"> </span><span class="na">xsi:type=</span><span class="s">&quot;string&quot;</span><span class="nt">&gt;</span>custom_block_type<span class="nt">&lt;/argument&gt;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">        </span><span class="nt">&lt;argument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;identifier&quot;</span><span class="w"> </span><span class="na">xsi:type=</span><span class="s">&quot;string&quot;</span><span class="nt">&gt;</span>custom-block-uid<span class="nt">&lt;/argument&gt;</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nt">&lt;/arguments&gt;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="nt">&lt;/block&gt;</span>
+</code></pre></div>
+<h3 id="using-reference-notation">Using Reference Notation</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="cm">&lt;!-- Using dot notation to specify content type and identifier --&gt;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nt">&lt;block</span><span class="w"> </span><span class="na">class=</span><span class="s">&quot;Elgentos\PrismicIO\Block\StaticBlock&quot;</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;footer.block&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&lt;arguments&gt;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">        </span><span class="nt">&lt;argument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;reference&quot;</span><span class="w"> </span><span class="na">xsi:type=</span><span class="s">&quot;string&quot;</span><span class="nt">&gt;</span>footer_block.main<span class="nt">&lt;/argument&gt;</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nt">&lt;/arguments&gt;</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="nt">&lt;/block&gt;</span>
+</code></pre></div>
+<h2 id="reference-format">Reference Format</h2>
+<p>You can reference static blocks in two ways:</p>
+<ol>
+<li>
+<p>Using separate arguments:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">&lt;arguments&gt;</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nt">&lt;argument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;content_type&quot;</span><span class="w"> </span><span class="na">xsi:type=</span><span class="s">&quot;string&quot;</span><span class="nt">&gt;</span>static_block<span class="nt">&lt;/argument&gt;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">&lt;argument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;identifier&quot;</span><span class="w"> </span><span class="na">xsi:type=</span><span class="s">&quot;string&quot;</span><span class="nt">&gt;</span>my-block<span class="nt">&lt;/argument&gt;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="nt">&lt;/arguments&gt;</span>
+</code></pre></div></p>
+</li>
+<li>
+<p>Using dot notation in the reference:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">&lt;arguments&gt;</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="nt">&lt;argument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;reference&quot;</span><span class="w"> </span><span class="na">xsi:type=</span><span class="s">&quot;string&quot;</span><span class="nt">&gt;</span>static_block.my-block<span class="nt">&lt;/argument&gt;</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nt">&lt;/arguments&gt;</span>
+</code></pre></div></p>
+</li>
+</ol>
+<p>The format is: <code>content_type.identifier</code></p>
+<h2 id="technical-details">Technical Details</h2>
+<p>The static block system:
+1. Creates a Prismic document based on the provided identifier and content type
+2. Fetches the document content from Prismic
+3. Renders all child blocks within the context of the fetched document</p>
+<h2 id="error-handling">Error Handling</h2>
+<p>The block will:
+- Return an empty string if no identifier is provided
+- Throw a <code>StaticBlockNotFoundException</code> if the referenced document cannot be found
+- Include helpful debug information when exceptions occur, such as:
+  - UID
+  - Content type
+  - Language</p>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li>Use meaningful identifiers that reflect the block's purpose</li>
+<li>Keep content types organized and consistent</li>
+<li>Consider using the dot notation reference for cleaner XML</li>
+<li>Handle potential missing blocks gracefully in your templates</li>
+<li>Use appropriate language settings for multi-language stores</li>
+<li>Cache static block output when possible for better performance </li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1221,10 +1555,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["navigation.top"], "search": "/assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>
